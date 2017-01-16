@@ -1,0 +1,36 @@
+﻿div.scrollingHotSpotLeft {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	z-index: 200;
+	left: 5px;
+	cursor: url(../images/cursors/cursor_arrow_left.png), url(../images/cursors/cursor_arrow_left.cur),w-resize;
+}
+div.scrollingHotSpotLeftVisible {
+	background: url(../images/scroll-tabs-left.png) left 7px no-repeat;	
+}
+div.scrollingHotSpotRight {
+	width: 30px;
+	height: 30px;
+	background-image: url(../images/big_transparent.gif);
+	background-repeat: repeat;
+	background-position: center center;
+	position: absolute;
+	z-index: 200;
+	right: 5px;
+	cursor: url(../images/cursors/cursor_arrow_right.png), url(../images/cursors/cursor_arrow_right.cur),e-resize;
+}
+div.scrollingHotSpotRightVisible {
+	background: url(../images/scroll-tabs-right.png) right 7px no-repeat;
+}
+div.scrollWrapper {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+}
+div.scrollableArea {
+	position: relative;
+	width: auto;
+	height: 100%;
+}

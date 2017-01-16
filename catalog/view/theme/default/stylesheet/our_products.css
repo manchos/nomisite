@@ -1,0 +1,154 @@
+.box-product .image .stiker-special-module {
+	display: block;
+	position: absolute;
+	background: url('../image/sale.png') no-repeat;
+	z-index: 6;
+	width: 41px;
+	height: 41px;
+	top: 2px;
+	right: 2px;
+	color: #FFF;
+	font-size: 11px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 7px;
+	-webkit-transition: all 0.3s ease-in 0s;
+    -moz-transition: all 0.3s ease-in 0s;
+	transition: all 0.3s ease-in 0s;
+}
+.box-product .image .stiker-special-module span {
+	font-size: 9px;
+}
+.box-product .image .stiker-new-module {
+	display: block;
+	position: absolute;
+	background: url('../image/new.png') no-repeat;
+	z-index: 6;
+	width: 54px;
+	height: 46px;
+	top: 2px;
+	left: 2px;
+	-webkit-transition: all 0.3s ease-in 0s;
+    -moz-transition: all 0.3s ease-in 0s;
+	transition: all 0.3s ease-in 0s;
+}
+.box-product .image .stiker-popular-module {
+	display: block;
+	position: absolute;
+	background: url('../image/popular.png') no-repeat;
+	z-index: 6;
+	width: 54px;
+	height: 46px;
+	bottom: 2px;
+	right: 2px;
+	-webkit-transition: all 0.3s ease-in 0s;
+    -moz-transition: all 0.3s ease-in 0s;
+	transition: all 0.3s ease-in 0s;
+}
+.box-product .image:hover .stiker-special-module, .box-product .image:hover .stiker-new-module, .box-product .image:hover .stiker-popular-module {
+	opacity: 0;
+}
+.box-product .our-name {
+	height: 30px;
+	padding: 3px 5px;
+	text-align: center;
+	border-bottom: 1px dashed #DBDEE1; 
+	margin-bottom: 5px;
+}
+.box-product .description-box {
+	height: 90px;
+	overflow: hidden;
+	padding: 3px;
+	border-bottom: 1px dashed #DBDEE1; 
+	margin-bottom: 5px;
+}
+.box-bottom  {
+	text-align: center;
+	border-bottom: 1px dashed #DBDEE1; 
+	padding: 5px 3px;
+}
+.box-bottom .price, .box-bottom .cart {
+	border-bottom: 1px dashed #DBDEE1; 
+	padding: 0 3px 5px 3px;
+	margin-bottom: 5px;
+}
+.box-bottom .carts-box .button-quick-view  {
+	background: url('../image/btn-quick-view.png') no-repeat;
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+}
+.box-bottom .carts-box .button-compares  {
+	background: url('../image/btn-compares.png') no-repeat;
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+}
+.box-bottom .carts-box .button-wishlists  {
+	background: url('../image/btn-wishlists.png') no-repeat;
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+}
+.hidden {
+	display: none;
+}
+.box .box-no-heading {
+	border-bottom: 1px solid #DBDEE1; 
+}
+.box .our-products-tabs {
+	background: #f5f5f5; 
+	height: 30px; 
+	border-left: 1px solid #DBDEE1;
+	border-right: 1px solid #DBDEE1;
+	border-bottom: 1px solid #DBDEE1; 
+	text-align: left;
+}
+.box .our-products-tabs a {
+	float: left;
+	color: #777; 
+	display: none;
+	font-family: Times New Roman; 
+	font-size: 11px;
+	text-transform: uppercase; 
+	padding: 8px 12px 8px 12px; 
+	text-decoration: none;
+	margin: 0;
+}
+.box .our-products-tabs a:hover {
+	color: #000;
+}
+.box .our-products-tabs a.selected {
+	background: #FFF; 
+	border-left: 1px solid #cdcdcd; 
+	border-right: 1px solid #cdcdcd;
+	padding: 8px 11px 9px 11px; 
+	cursor: default ;
+}
+.box .our-products-tabs a.selected:hover {
+	color: #777;
+}
+.box .our-products-tabs a.selected:first-child {
+	padding: 8px 11px 9px 12px;
+	border-left: 0;
+}
+.bottom-border-name {
+	border-bottom: 1px solid #d2d2ce;
+}
+#makeMeScrollable {
+	width: 100%;
+	height: 31px;
+	position: relative;
+	margin: 0;
+}
+#makeMeScrollable div.scrollableArea img {
+	position: relative;
+	float: left;
+	margin: 0;
+	padding: 0;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}

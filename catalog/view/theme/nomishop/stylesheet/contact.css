@@ -1,0 +1,52 @@
+.contact-info{
+    display: table;
+    width: 100%;
+    box-sizing: border-box;  /* не поддерживается в CSS2 */
+    margin-left: 0;
+    margin-right: 0;
+    border-spacing:10px;
+}
+.d-row > div {
+    display: table-cell;
+    vertical-align: top;
+    
+    box-sizing: border-box;  /* не поддерживается в CSS2 */
+}
+.d-row{
+    display: table-row;
+}
+/*Contact info*/
+.iwsleft_contact {
+   
+   width: 46%;
+   padding: 10px;
+   border: 1px solid #EEE;
+   height: 414px;
+/*   -webkit-box-shadow: 0 0 2px #AAA;
+   -moz-box-shadow: 0 0 2px #aaa;
+   box-shadow: 0 0 2px #AAA;*/
+   -webkit-transition: all 0.3s ease-in 0s;
+   -moz-transition: all 0.3s ease-in 0s;
+   transition: all 0.3s ease-in 0s;
+}
+.iwsright_contact {
+   
+   width: 48%;
+   padding: 10px;
+   border: 1px solid #EEE;
+/*   -webkit-box-shadow: 0 0 2px #AAA;
+   -moz-box-shadow: 0 0 2px #aaa;
+   box-shadow: 0 0 2px #AAA;*/
+   -webkit-transition: all 0.3s ease-in 0s;
+   -moz-transition: all 0.3s ease-in 0s;
+   transition: all 0.3s ease-in 0s;
+}
+.iwsright_contact .button {
+   float: right;
+}
+.contact-info h2{
+    text-transform: uppercase;
+    text-align: center;
+/*    font-weight: bolder;*/
+}
+/*/Contact info*/

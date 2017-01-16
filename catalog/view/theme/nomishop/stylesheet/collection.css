@@ -1,0 +1,147 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 21.08.2014, 19:58:23
+    Author     : malahov
+*/
+nav.coll{
+    float:right;
+    margin-top: -33px;
+    margin-right: 40px;
+}
+.coll-menu{
+    margin: 0px 0px -10px 0px;
+    padding: 0px; 
+/*    width: 100%;*/
+    display: inline-block;
+    background: url("../image/bl.jpg") no-repeat scroll right top rgba(0, 0, 0, 0);
+    height: 33px;
+}
+.coll-menu a {
+    color: #58595B;
+    text-decoration: none;
+    
+}
+.coll-menu > li{
+/*    list-style-position: inside;*/
+
+    background: url("../image/bl.jpg") no-repeat scroll left top rgba(0, 0, 0, 0);
+}
+.coll-menu li{
+    position: relative;
+    display: inline-block;
+    float: left;
+    font: 16px 'Arial', sans-serif;
+    padding: 0px 16px;
+    font-weight: 500;
+    margin: 0px;
+    height: 33px;
+}
+
+.coll-menu > li:last-child{
+     
+}
+.coll-menu ul li{
+    border: 0;
+}
+.coll-menu:after {
+    clear: both;
+    content: " ";
+    display: block;
+    font-size: 0;
+    height: 0;
+    visibility: hidden;
+    margin: 0;
+    padding: 0;
+}
+.coll-menu li:hover > ul
+{
+    display: block;
+}
+.coll-menu ul {
+    background: linear-gradient(#EF648D, #EF648D) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    /*border-radius: 5px;*/
+/*    box-shadow: 0 0 2px rgba(255, 255, 255, 0.5);*/
+    display: none;
+    left: 0;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 33px;
+    z-index: 99999;
+}
+.coll-menu ul li:first-child{
+    padding: 20px 30px 0 30px;
+}
+.coll-menu ul li:last-child{
+    padding: 0px 30px 20px 30px;
+}
+.coll-menu ul li
+{
+    float: none;
+    margin: 0;
+    padding: 0 30px 0 30px;
+    display: block;
+/*    -moz-box-shadow: 0 1px 0 #111111, 0 2px 0 #777777;
+    -webkit-box-shadow: 0 1px 0 #111111, 0 2px 0 #777777;
+    box-shadow: 0 1px 0 #111111, 0 2px 0 #777777;*/
+}
+
+.coll-menu ul li a
+{
+    color: #FFFFFF;
+}
+.coll-menu ul li a:hover
+{
+    color: #58595B;
+}
+.coll-menu ul a
+{
+    padding: 7px;
+    height: auto;
+    line-height: 1;
+    display: block;
+    white-space: nowrap;
+    float: none;
+    text-transform: none;
+}
+.coll-menu ul li:last-child
+{
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.coll-menu li:hover > a
+{
+    color: #ef648d;
+}
+*html .coll-menu li a:hover /* IE6 */
+{
+    color: #ef648d;
+}
+.coll-menu li.active {
+/*    background: #29c5e6;*/
+    color: #EF648D;
+}
+.coll-menu ul li:first-child a:after
+{
+    content: '';
+    position: absolute;
+    left: 15%;
+    top: -8px;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 8px solid #EF648D;
+}
+
+.coll-menu ul li:first-child a:hover:after
+{
+/*    border-bottom-color: #04acec;*/
+}
+

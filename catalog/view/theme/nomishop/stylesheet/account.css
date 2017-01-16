@@ -1,0 +1,195 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10.08.2014, 22:49:08
+    Author     : malahov
+*/
+.regstep{
+    text-align: center;
+}
+.login-content{
+    text-align: center;
+}
+table.form {
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    width: 100%;
+}
+table.form tr td:first-child {
+    width: 170px;
+    text-align: right;
+    padding-right: 10px;
+}
+table.form td {
+    padding: 4px;
+}
+#SignupForm{
+    padding-left: 15%;
+}
+#SignupForm h2{
+    margin-left: -35%;
+}
+/*-- Rect 1_icon --*/
+.stepDesc0.current{
+        width:30px;
+        height:30px;
+        background:url('../image/sprite1-4.png') 0px 0px no-repeat;
+}
+/*-- Rect 1_icon_gr --*/
+.stepDesc0{
+        width:30px;
+        height:30px;
+        background:url('../image/sprite1-4.png') -30px 0px no-repeat;
+}
+/*-- Rect 2_icon --*/
+.stepDesc1.current{
+        width:30px;
+        height:30px;
+        background:url('../image/sprite1-4.png') -60px 0px no-repeat;
+}
+/*-- Rect 2_icon_gr --*/
+.stepDesc1{
+        width:30px;
+        height:30px;
+        background:url('../image/sprite1-4.png') -90px 0px no-repeat;
+}
+/*-- Rect 3_icon --*/
+.stepDesc2.current{
+        width:30px;
+        height:30px;
+        background:url('../image/sprite1-4.png') -120px 0px no-repeat;
+}
+/*-- Rect 3_icon_gr --*/
+.stepDesc2{
+        width:30px;
+        height:30px;
+        background:url('../image/sprite1-4.png') -150px 0px no-repeat;
+}
+/*-- Rect 4_icon --*/
+.stepDesc3.current{
+        width:30px;
+        height:30px;
+        background:url('../image/sprite1-4.png') -180px 0px no-repeat;
+}
+/*-- Rect 4_icon_gr --*/
+.stepDesc3{
+        width:30px;
+        height:30px;
+        background:url('../image/sprite1-4.png') -210px 0px no-repeat;
+}
+
+#steps li,i{
+    display: inline-block;
+    
+}
+#steps i{
+    float:left;
+}
+
+
+.required {
+    color: #ff0000;
+    font-weight: bold;
+}
+
+.button15 {
+  display: inline-block;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  color: rgb(68,68,68);
+  text-decoration: none;
+  user-select: none;
+  padding: .4em 2.2em;
+  outline: none;
+  border: 1px solid #83D5EF;
+  /*#83D5EF;*/
+  border-radius: 2px;
+  background: rgb(245,245,245);
+      /*linear-gradient(#f4f4f4, #83D5EF);*/
+  transition: all .218s ease 0s;
+  cursor: pointer;
+}
+.button15:hover {
+  color: rgb(24,24,24);
+  border: 1px solid #ef648d;
+  /*rgb(198,198,198);*/
+ background: #f7f7f7; /* linear-gradient(#f7f7f7, #83D5EF);*/
+  box-shadow: 0 1px 2px rgba(0,0,0,.1);
+}
+.button15:active {
+  color: rgb(51,51,51);
+  border: 1px solid rgb(204,204,204);
+  background: rgb(238,238,238) linear-gradient(rgb(238,238,238), rgb(224,224,224));
+  box-shadow: 0 1px 2px rgba(0,0,0,.1) inset;
+}
+
+.prev{
+    float:left;
+}
+.stepd{
+    margin: 0px 7% 0px 7%;
+    display: inline-block;
+    line-height: 30px;
+    height: 30px;
+    text-align: center;
+}
+.stepd_text{
+
+    display: inline-block;
+    padding-left: 5px;
+    vertical-align: middle;
+}
+
+
+.loginevent{
+    padding-left: 40%;
+}
+.login-form{
+    width: 280px;
+    margin:30px auto 0px 20%;
+    display: block;
+}
+.form__widget {
+    margin: 0 0 20px;
+    padding-left: 83px;
+}
+.form__widget-label {
+    float: left;
+    font-weight: 700;
+    line-height: 24px;
+    margin-left: -83px;
+}
+.form__widget-content {
+    margin: 0;
+}
+.text-field {
+    border: 1px solid #d4d4d4;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1) inset;
+    font-family: Arial;
+    font-size: 13px;
+    height: 23px;
+    line-height: 23px;
+    margin: 0;
+    outline: medium none;
+    padding: 0 8px;
+}
+.text-field {
+    width: 180px;
+}
+.socnet{
+    margin-top: 20px;
+}
+.socnet-label{
+    float:left;
+    text-align: left;
+}
+.simplereg_socnetauth2_lline_links, .simplereg_socnetauth2_bline_links{
+    text-align: center;
+}
+.simplereg_socnetauth2_lline_links, .simplereg_socnetauth2_bline_links table{
+    margin: 0px auto;
+}

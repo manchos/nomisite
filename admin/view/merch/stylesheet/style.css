@@ -1,0 +1,123 @@
+.merch-goods-table th {
+	background:#F2F2F2;
+	font-weight:normal;
+	font-size:14px;
+}
+.merch-product-item-store, .merch-product-item-module {
+	border:1px silver solid;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-khtml-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;	
+	margin-bottom:5px;
+}
+.merch-tab-item-module {
+	border:1px silver solid;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-khtml-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;	
+	margin-bottom:5px;
+	background:url(../image/tabback.png) repeat;	
+}
+.merch-product-item-selected {
+	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=50); /* IE 5.5+*/
+	-moz-opacity: 0.5; /* Mozilla 1.6 и ниже */
+	-khtml-opacity: 0.5; /* Konqueror 3.1, Safari 1.1 */
+	opacity: 0.5; /* CSS3 - Mozilla 1.7b +, Firefox 0.9 +, Safari 1.2+, Opera 9 */
+}
+.module-control-panel {
+	display:none;
+	z-index:999;
+	position:relative;
+	width:55px;
+	float:right;
+	right:0;
+	top:0;
+	background: silver;
+	-webkit-border-radius: 0px 0px 0px 5px;
+	-moz-border-radius: 0px 0px 0px 5px;
+	-khtml-border-radius: 0px 0px 0px 5px;
+	border-radius: 0px 0x 0px 5px;	
+}
+.merch-product-item-module table {
+	display:block;
+	position:relative;
+}
+.links a, .links b {
+	font-size:10px !important;
+	padding:2px !important;
+}
+.filter-link, .new-tab-link {
+	font-size:11px;
+	line-height:20px;
+	margin-left:10px;
+	color:navy;
+	text-decoration:none;
+	border-bottom:1px navy dotted;
+}
+.merch-filter {
+	display:none;
+	width:auto;
+	margin-bottom:10px;
+	background:#EAEAEA;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-khtml-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;	
+	padding:10px;
+}
+.update {
+	line-height: 40px;
+	padding-left:10px;
+}
+.mytabs {
+	margin-top:10px;
+	margin-bottom:20px;
+}
+.mytabs a {
+	font-size:14px;
+	font-weight:bold;
+	padding:7px;
+	margin:2px;
+}
+.mytabs a.selected {
+	background:#0066FF;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-khtml-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;	
+	color:white;
+	text-decoration:none;
+}
+
+.module-settings {
+	background:#EAEAEA;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-khtml-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;	
+}
+
+.setting-link {
+	font-size:14px;
+	text-decoration:none;
+	border-bottom:1px dotted;
+	line-height:30px;
+	margin-bottom:10px;
+}
+#new-module-link {
+	cursor:pointer;
+	color:#666666;
+	text-decoration:none;
+	border-bottom:1px #666666 dotted;
+	padding:0 !important;
+	font-size:14px;
+	font-weight:bold;
+}
+.tab-name {
+	font-size:14px;
+	text-align:center;
+	line-height:40px;
+	font-weight:bold;
+}
